@@ -1,6 +1,8 @@
 import Head from 'next/head'
-
+import Router from 'next/router'
 import '../styles/globals.css'
+
+Router.push('http://positivityminds.com')
 
 function MyApp({ Component, pageProps }) {
   return (
